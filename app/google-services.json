@@ -12,7 +12,12 @@
           "package_name": "it.progmob.cinelog"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "83672962827-3g1ikrfnqsi3h5a7k0leepmjio0khkqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBTCSeE0vfy6ehWsJc3_3cxPjSPF2ryyUg"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83672962827-3g1ikrfnqsi3h5a7k0leepmjio0khkqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
