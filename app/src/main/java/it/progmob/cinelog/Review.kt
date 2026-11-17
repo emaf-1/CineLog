@@ -1,5 +1,4 @@
-package it.progmob.cinelog
-
+package it.progmob.cinelog.model
 data class Review(
     val id: String = "",
     val contentId: String = "",

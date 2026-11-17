@@ -1,4 +1,4 @@
-package it.progmob.cinelog
+package it.progmob.cinelog.model
 
 data class Content(
     val id: String = "",
