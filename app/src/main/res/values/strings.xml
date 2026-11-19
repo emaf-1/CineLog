@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CineLog</string>
+
+    <!-- sign up e sign in diventano login e register -->
+    <string name="fui_sign_in_default">Login</string>
+    <string name="fui_title_register_email">Register</string>
+    <string name="fui_sign_in_with_email">Login con email</string>
+
+    <!-- main activity -->
+    <string name="welcome_message">Benvenuto su CineLog!</string>
+    <string name="logout_button">Logout</string>
 </resources>

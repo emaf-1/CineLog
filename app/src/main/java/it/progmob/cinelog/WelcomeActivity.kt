@@ -17,7 +17,7 @@ class WelcomeActivity : AppCompatActivity() {
 
     private val signInLauncher = registerForActivityResult(
         FirebaseAuthUIActivityResultContract()
-    ) { res -> onSignInResult(res) }
+    ) { res -> this.onSignInResult(res) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,7 +40,6 @@ class WelcomeActivity : AppCompatActivity() {
             .setAvailableProviders(providers)
             .setTheme(R.style.Theme_CineLog)
             .build()
-
         signInLauncher.launch(signInIntent)
     }
 
